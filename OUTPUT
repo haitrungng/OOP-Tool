@@ -1,0 +1,4 @@
+public double getBalance(){return balance; }
+public void setBalance(double TEMPORARY){ balance= TEMPORARY;}
+public String getName(){return name; }
+public void setName(String TEMPORARY){ name= TEMPORARY;}
