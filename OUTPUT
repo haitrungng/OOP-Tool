@@ -1,4 +1,4 @@
+public String getInGame(){return inGame; }
+public void setInGame(String TEMPORARY){ inGame= TEMPORARY;}
 public double getBalance(){return balance; }
 public void setBalance(double TEMPORARY){ balance= TEMPORARY;}
-public String getName(){return name; }
-public void setName(String TEMPORARY){ name= TEMPORARY;}
