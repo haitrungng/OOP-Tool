@@ -43,3 +43,32 @@ OUTPUT:
     public void setName(String TEMPORARY){ name= TEMPORARY;}
 
 }
+
+3. for JS
+
+INPUT:
+{
+
+    this.width = width
+    this.height = height
+
+}
+
+OUTPUT:
+{
+    get width(){ return this._width}
+    set width(TEMPORARY){
+        if(TEMPORARY > 0)    
+            this._width = TEMPORARY
+        else 
+            console.error(`width must be a positive number`)
+        }
+    get height(){ return this._height}
+    set height(TEMPORARY){
+        if(TEMPORARY > 0)    
+            this._height = TEMPORARY
+        else 
+            console.error(`height must be a positive number`)
+        }
+
+}
