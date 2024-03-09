@@ -56,6 +56,7 @@ INPUT:
 
 OUTPUT:
 {
+
     get width(){ return this._width}
     set width(TEMPORARY){
         if(TEMPORARY > 0)    
